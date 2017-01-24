@@ -1,5 +1,4 @@
 class PraticeController < ApplicationController
-
   def index
     @groups = Group.all
   end
